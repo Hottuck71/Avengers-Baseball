@@ -1,0 +1,31 @@
+{
+  "leagueName": "Pleasant Little League",
+  "homeTeam": {
+    "name": "Avengers",
+    "colors": { "primary": "#b30000", "secondary": "#1a1a1a", "accent": "#ffd700" },
+    "battingOrder": [
+      { "number": 2, "name": "Eli", "handedness": "R", "power": 0.45, "contact": 0.7, "speed": 0.65 },
+      { "number": 8, "name": "Sam", "handedness": "L", "power": 0.5, "contact": 0.6, "speed": 0.7 }
+      // … add more players
+    ],
+    "pitchers": [
+      { "number": 22, "name": "Eli", "velocity": 52, "control": 0.65, "break": 0.3 }
+    ]
+  },
+  "awayTeam": {
+    "name": "Comets",
+    "colors": { "primary": "#1e90ff", "secondary": "#0d1b2a", "accent": "#39ff14" },
+    "battingOrder": [
+      { "number": 5, "name": "Jay", "handedness": "R", "power": 0.5, "contact": 0.6, "speed": 0.64 }
+      // … add more players
+    ],
+    "pitchers": [
+      { "number": 33, "name": "Kai", "velocity": 54, "control": 0.6, "break": 0.35 }
+    ]
+  },
+  "stadium": {
+    "name": "Pleasant Park",
+    "dimensions": { "left": 200, "center": 225, "right": 200 },
+    "wind": 0.05
+  }
+}
