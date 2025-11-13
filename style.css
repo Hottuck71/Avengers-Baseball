@@ -1,0 +1,22 @@
+:root { --bg: #0b1220; --fg: #e6edf3; --accent: #4cc9f0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg); font-family: system-ui, sans-serif; }
+header { display: flex; align-items: center; gap: 1rem; padding: 0.75rem 1rem; border-bottom: 1px solid #1c273a; }
+h1 { font-size: 1.25rem; margin: 0; letter-spacing: 0.5px; }
+#ui { display: flex; align-items: center; gap: 0.75rem; }
+button, select { background: #142136; color: var(--fg); border: 1px solid #263b5e; border-radius: 6px; padding: 0.4rem 0.6rem; }
+button:hover { border-color: var(--accent); cursor: pointer; }
+#game { display: block; margin: 0 auto; background: #0f1a2c; border-top: 1px solid #1c273a; }
+
+#controlPanel {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+#scorePanel {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
